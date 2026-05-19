@@ -1,4 +1,3 @@
-# Optimización de Procesamiento de Clientes
 
 ## Problema identificado
 
@@ -8,8 +7,6 @@ El código original presentaba dos problemas principales de diseño:
 2. Agrupaba campañas usando búsquedas lineales sobre listas.
 
 Esto provocaba alto consumo de memoria y bajo rendimiento cuando el volumen de datos aumentaba.
-
----
 
 # ¿Por qué cargar todos los clientes en memoria puede ser un problema?
 

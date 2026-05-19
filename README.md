@@ -9,10 +9,11 @@ El código original presentaba dos problemas principales de diseño:
 
 Esto provocaba alto consumo de memoria y bajo rendimiento cuando el volumen de datos aumentaba.
 
+---
 
 # ¿Por qué cargar todos los clientes en memoria puede ser un problema?
 
 Cuando un programa carga todos los registros del archivo CSV en memoria:
 
-java
+```java
 List<Cliente> clientes = new ArrayList<>();
